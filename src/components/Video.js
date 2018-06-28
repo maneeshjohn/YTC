@@ -7,7 +7,7 @@ const Video = ({ video, onSelect }) => {//(props)
     <li className="collection-item" onClick={() => onSelect(video)}>
       <div>
         <div>
-          <img class="responsive-img" src={imgURL} />
+          <img className="responsive-img" src={imgURL} />
         </div>
         <div className="title align-center">{video.snippet.title}</div>
       </div>
